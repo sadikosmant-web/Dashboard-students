@@ -1,0 +1,174 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#e9edf2;
+}
+
+.container{
+display:flex;
+min-height:100vh;
+}
+
+.sidebar{
+width:260px;
+background:#2f4358;
+padding:30px;
+color:white;
+}
+
+.sidebar h2{
+font-size:40px;
+margin-bottom:40px;
+}
+
+.sidebar ul{
+list-style:none;
+}
+
+.sidebar ul li{
+margin-bottom:15px;
+border-radius:8px;
+}
+
+.sidebar ul li a{
+display:block;
+padding:15px;
+color:white;
+text-decoration:none;
+}
+
+.sidebar ul li:hover,
+.sidebar .active{
+background:#3d536b;
+}
+
+.main{
+flex:1;
+padding:25px;
+}
+
+.title-box{
+background:#354b63;
+color:white;
+padding:25px;
+border-radius:10px;
+text-align:center;
+margin-bottom:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+overflow:hidden;
+border-radius:10px;
+}
+
+thead{
+background:#2f80b7;
+color:white;
+}
+
+th,td{
+padding:15px;
+text-align:center;
+}
+
+tbody tr:nth-child(even){
+background:#f2f2f2;
+}
+
+td img{
+width:60px;
+height:60px;
+border-radius:50%;
+}
+
+.edit{
+background:#27ae60;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.delete{
+background:#c0392b;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.save{
+background:#27ae60;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:5px;
+cursor:pointer;
+margin-top:10px;
+}
+.logout-card {
+  text-align: center;
+  padding: 50px 30px;
+}
+
+.logout-title {
+  color: #e74c3c;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.logout-text {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.return-home {
+  display: inline-block;
+  background: #27ae60;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.return-home:hover {
+  background: #219150;
+}
+input,
+select{
+width:100%;
+padding:12px;
+margin:10px 0 20px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.logout-box{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+flex-direction:column;
+text-align:center;
+}
